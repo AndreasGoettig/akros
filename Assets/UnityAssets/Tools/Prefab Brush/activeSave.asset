@@ -16,25 +16,38 @@ MonoBehaviour:
   prefabData:
   - prefab: {fileID: 4655554399499489375, guid: 3b54291338335ae48b5f5b5f3b6eb606,
       type: 3}
-    selected: 1
+    selected: 0
   - prefab: {fileID: 4782707518191193687, guid: bbe70efb5b465c945a55365ca5245b0a,
       type: 3}
-    selected: 1
+    selected: 0
   - prefab: {fileID: 6458907534031036834, guid: 8027a374f0ceca94480a5bc31377188b,
       type: 3}
-    selected: 1
+    selected: 0
   - prefab: {fileID: 4115416405751721923, guid: 6fd6fb0df7e29c641acd0ba3d8d210d3,
       type: 3}
-    selected: 1
+    selected: 0
   - prefab: {fileID: 309865362510848651, guid: da418bb638856e046abc0e29ca2b21f4, type: 3}
-    selected: 1
+    selected: 0
   - prefab: {fileID: 8161198795115713758, guid: ccb309186cfeb104da864accb1759a08,
       type: 3}
-    selected: 1
+    selected: 0
   - prefab: {fileID: 6721580270095592568, guid: e83a0ae7086756e4e845171c31ffd2ff,
       type: 3}
-    selected: 1
+    selected: 0
   - prefab: {fileID: 7401005632366886789, guid: e43d88a1db43bc841ade02c7f22aa796,
+      type: 3}
+    selected: 0
+  - prefab: {fileID: 332610682010275483, guid: e3d69b0fca7ac7342a49b39bb048c811, type: 3}
+    selected: 0
+  - prefab: {fileID: 3388537039447241905, guid: 0763e557dfa7dc54798bfd19e2fcb0e4,
+      type: 3}
+    selected: 0
+  - prefab: {fileID: 4276581488286876975, guid: ba76f0562dc2eac41970e644533beab9,
+      type: 3}
+    selected: 0
+  - prefab: {fileID: 298006547029297602, guid: 6756589c55dd2ed498b5f79e8e42f246, type: 3}
+    selected: 1
+  - prefab: {fileID: 7916083806768349868, guid: 371d02632ebc34c4eb3dc63f19e3eec0,
       type: 3}
     selected: 1
   paintType: 0
@@ -44,7 +57,7 @@ MonoBehaviour:
   paintDeltaDistance: 0.1
   maxPaintDeltaDistance: 3
   minPaintDeltaDistance: 0.1
-  prefabsPerStroke: 3
+  prefabsPerStroke: 5
   maxprefabsPerStroke: 20
   minprefabsPerStroke: 1
   spawnHeight: 10
