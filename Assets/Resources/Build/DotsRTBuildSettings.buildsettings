@@ -1,0 +1,29 @@
+{
+    "Dependencies": [],
+    "Components": [{
+        "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+        "ProductName": "Product Name",
+        "CompanyName": "Company Name"
+    }, {
+        "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
+        "BuildCurrentScene": false,
+        "Scenes": [
+            "GlobalObjectId_V1-1-bff77b01b50254edbb6edeeaba5ae8b3-102900000-0",
+            "GlobalObjectId_V1-1-9b8561c6e396849a5ba48c3eb9524049-102900000-0",
+            "GlobalObjectId_V1-1-764428c63577f4580af4ce54ca9f4b1b-102900000-0",
+            "GlobalObjectId_V1-1-e07afcca5bf1a41f5bd28f498656b7b8-102900000-0",
+            "GlobalObjectId_V1-1-e7a7f9734636d415ca84ef3aaf7680f6-102900000-0"
+        ]
+    }, {
+        "$type": "Unity.Entities.Runtime.Build.DotsRuntimeBuildProfile, Unity.Entities.Runtime.Build",
+        "ShouldWriteDataFiles": true,
+        "EnableManagedDebugging": false,
+        "EnableMultiThreading": false,
+        "EnableBurst": true,
+        "RootAssembly": "GlobalObjectId_V1-1-725d36de53dc30f9a00742ae18029bcc-5897886265953266890-0",
+        "Target": null,
+        "Configuration": 2,
+        "Pipeline": "GlobalObjectId_V1-1-56241f83dacec1141b7d967eb30bf934-93214019566545601-0",
+        "BeeTargetOverride": null
+    }]
+}
