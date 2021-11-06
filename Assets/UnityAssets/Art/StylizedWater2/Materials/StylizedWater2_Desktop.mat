@@ -10,8 +10,8 @@ Material:
   m_Name: StylizedWater2_Desktop
   m_Shader: {fileID: 4800000, guid: f04c9486b297dd848909db26983c9ddb, type: 3}
   m_ShaderKeywords: ADVANCED_LIGHTING _ADVANCED_SHADING _CAUSTICS _DEPTH_TEX _DISTANCE_NORMALS
-    _FOAM _NORMALMAP _RECEIVE_SHADOWS_OFF _REFRACTION _SHARP_INERSECTION _SIMPLE_LIGHTING
-    _TRANSLUCENCY _WAVES _WORLDSPACEUV_ON
+    _FOAM _NORMALMAP _REFRACTION _SHARP_INERSECTION _SIMPLE_LIGHTING _TRANSLUCENCY
+    _WAVES _WORLDSPACEUV_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -109,8 +109,10 @@ Material:
     - _Cutoff: 0.5
     - _Depth: 0.94
     - _DepthExp: 1
+    - _DepthHorizontal: 3
     - _DepthMode: 0
     - _DepthTexture: 1
+    - _DepthVertical: 4
     - _DisableDepthTexture: 0
     - _DstBlend: 0
     - _EdgeFade: 18.7
@@ -126,7 +128,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HorizonDistance: 8
+    - _HorizonDistance: 11
     - _IntersectionClipping: 0.395
     - _IntersectionFalloff: 1
     - _IntersectionLength: 2.27
@@ -150,11 +152,12 @@ Material:
     - _OcclusionStrength: 1
     - _PlanarReflectionsEnabled: 0
     - _PlanarReflectionsParams: 0
+    - _PointSpotLightReflectionExp: 64
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _ReflectionBlur: 0
     - _ReflectionDistortion: 0.0467
-    - _ReflectionFresnel: 5
+    - _ReflectionFresnel: 20
     - _ReflectionStrength: 0.335
     - _Reflectivity: 1
     - _RefractionAmount: 0.05
@@ -171,7 +174,7 @@ Material:
     - _SimpleLighting: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SparkleIntensity: 0
+    - _SparkleIntensity: 0.02
     - _SparkleSize: 0.302
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -190,13 +193,13 @@ Material:
     - _WaveNormalStr: 0.1
     - _WaveSpeed: 2.3999996
     - _WaveSteepness: 0
-    - _WaveTint: 0
+    - _WaveTint: -0.1
     - _WavesOn: 1
     - _WorkflowMode: 1
     - _WorldSpaceUV: 1
     - _ZWrite: 1
     m_Colors:
-    - _AnimationParams: {r: 1, g: 1, b: 1, a: 0}
+    - _AnimationParams: {r: -1, g: -1, b: 1, a: 0}
     - _BaseColor: {r: 0, g: 0.16451614, b: 0.34, a: 0.9647059}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _DepthMapBounds: {r: -402.3, g: -459.43, b: 0.0012693577, a: 0}
