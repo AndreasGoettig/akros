@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: f04c9486b297dd848909db26983c9ddb, type: 3}
   m_ShaderKeywords: ADVANCED_LIGHTING _ADVANCED_SHADING _DEPTH_TEX _ENVIRONMENTREFLECTIONS_OFF
     _FOAM _NORMALMAP _SIMPLE_LIGHTING _SMOOTH_INTERSECTION _SPECULARHIGHLIGHTS_OFF
-    _WORLDSPACEUV_ON
+    _WAVES _WORLDSPACEUV_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -187,14 +187,14 @@ Material:
     - _Texture_IntersectionOn: 1
     - _Tiling: 0.5
     - _Translucency: 1
-    - _WaveCount: 1
+    - _WaveCount: 5
     - _WaveDistance: 0
-    - _WaveHeight: 0.1
+    - _WaveHeight: 0.2
     - _WaveNormalStr: 0.06
-    - _WaveSpeed: 2.3999996
-    - _WaveSteepness: 0
+    - _WaveSpeed: 1
+    - _WaveSteepness: 1.99
     - _WaveTint: 0
-    - _WavesOn: 0
+    - _WavesOn: 1
     - _WorkflowMode: 1
     - _WorldSpaceUV: 1
     - _ZWrite: 1
@@ -212,7 +212,7 @@ Material:
     - _ShallowColor: {r: 0, g: 0, b: 0, a: 1}
     - _SlopeParams: {r: 0.5, g: 4, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _TranslucencyParams: {r: 1, g: 4, b: 0, a: 0}
+    - _TranslucencyParams: {r: 0, g: 4, b: 0, a: 0}
     - _VertexColorMask: {r: 0, g: 0, b: 0, a: 0}
     - _WaterColor: {r: 0.21176466, g: 0.6745098, b: 1, a: 1}
     - _WaterShallowColor: {r: 0, g: 0.9394503, b: 1, a: 1}
