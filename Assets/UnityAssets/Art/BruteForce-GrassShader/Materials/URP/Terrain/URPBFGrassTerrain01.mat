@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: URPBFGrassTerrain01
   m_Shader: {fileID: 4800000, guid: 374b0d9785a06b24bbbe612b37995204, type: 3}
-  m_ShaderKeywords: USE_BP USE_RT _RTEFFECT_ON
+  m_ShaderKeywords: USE_BP USE_SC _RTEFFECT_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control0:
-        m_Texture: {fileID: -3473994688427651039, guid: 0b1cd6fae2a56b442b1e92186df81e80,
+        m_Texture: {fileID: -9135139948466158771, guid: dd54e65a14642a547a8bce6d0dd6c949,
           type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -77,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NoGrassTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: fb8bfb125e146ae4a80d9685b882d592, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
@@ -198,8 +198,8 @@ Material:
     - _GrassCut: 0
     - _GrassSaturation: 2.48
     - _GrassShading: 0.044
-    - _GrassThinness: 1.1
-    - _GrassThinnessIntersection: 0.3
+    - _GrassThinness: 3
+    - _GrassThinnessIntersection: 1.2
     - _Metallic: 0
     - _Metallic0: 0
     - _Metallic1: 0
@@ -211,10 +211,10 @@ Material:
     - _Metallic7: 0
     - _MinimumNumberStacks: 2
     - _Mode: 0
-    - _NoisePower: 4
+    - _NoisePower: 1
     - _NumberOfStacks: 17
     - _OcclusionStrength: 1
-    - _OffsetValue: 1
+    - _OffsetValue: 0
     - _Parallax: 0.02
     - _PrioA: 1
     - _PrioB: 1
@@ -231,26 +231,26 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _TextureScale: 0.25
-    - _TilingN1: 10
+    - _TilingN1: 15
     - _TilingN2: 0.05
-    - _TilingN3: 0.2
+    - _TilingN3: 0.1
     - _UVSec: 0
     - _UseBiplanar: 1
-    - _UseRT: 1
-    - _UseShadowCast: 0
+    - _UseRT: 0
+    - _UseShadowCast: 1
     - _WindForce: 0.5
-    - _WindMovement: 0.1
+    - _WindMovement: 0.01
     - _ZWrite: 1
     - __NumberOfStacks: 17
     m_Colors:
-    - _Color: {r: 0.95699996, g: 0.95699996, b: 0.95699996, a: 1}
+    - _Color: {r: 0.6912159, g: 0.8117647, b: 0.44705883, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0.54218185, g: 0.5566038, b: 0.50146854, a: 1}
+    - _GroundColor: {r: 0.43617868, g: 0.4716981, b: 0.42497328, a: 1}
     - _OffsetVector: {r: 0, g: 1, b: 0, a: 0}
     - _PJShadowColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ProjectedShadowColor: {r: 0.48900002, g: 0.3268856, b: 0.18728702, a: 1}
+    - _ProjectedShadowColor: {r: 0.3532125, g: 0.7169812, b: 0.32128873, a: 1}
     - _RimColor: {r: 0.13725491, g: 0.2784314, b: 0.15540363, a: 1}
-    - _SelfShadowColor: {r: 0.38431373, g: 0.36862746, b: 0.09019608, a: 1}
+    - _SelfShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _Specular0: {r: 1, g: 1, b: 1, a: 1}
     - _Specular1: {r: 1, g: 1, b: 1, a: 1}
     - _Specular2: {r: 1, g: 1, b: 1, a: 1}
