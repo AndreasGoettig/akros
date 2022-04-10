@@ -224,7 +224,7 @@ Material:
     - _RTEffect: 1
     - _RimMax: 0.591
     - _RimMin: 0.11
-    - _RimPower: 3.15
+    - _RimPower: 2.05
     - _ShadowFuziness: 1
     - _ShadowMax: 0
     - _SmoothnessTextureChannel: 0
@@ -239,7 +239,7 @@ Material:
     - _UseRT: 0
     - _UseShadowCast: 1
     - _WindForce: 0.5
-    - _WindMovement: 0.01
+    - _WindMovement: 0.05
     - _ZWrite: 1
     - __NumberOfStacks: 17
     m_Colors:
